@@ -1,0 +1,6 @@
+c:\users\jon.essex\documents\visual studio 2012\Projects\MySocketServerEmulator\MySocketServerEmulator\bin\Debug\MySocketServerEmulator.exe.config
+c:\users\jon.essex\documents\visual studio 2012\Projects\MySocketServerEmulator\MySocketServerEmulator\bin\Debug\MySocketServerEmulator.exe
+c:\users\jon.essex\documents\visual studio 2012\Projects\MySocketServerEmulator\MySocketServerEmulator\bin\Debug\MySocketServerEmulator.pdb
+c:\users\jon.essex\documents\visual studio 2012\Projects\MySocketServerEmulator\MySocketServerEmulator\obj\Debug\MySocketServerEmulator.exe
+c:\users\jon.essex\documents\visual studio 2012\Projects\MySocketServerEmulator\MySocketServerEmulator\obj\Debug\MySocketServerEmulator.pdb
+c:\users\jon.essex\documents\visual studio 2012\Projects\MySocketServerEmulator\MySocketServerEmulator\obj\Debug\MySocketServerEmulator.csprojResolveAssemblyReference.cache

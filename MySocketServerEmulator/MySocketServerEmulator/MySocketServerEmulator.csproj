@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CF0445A4-F9B3-480C-8561-BFC04686EFCD}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MySocketServerEmulator</RootNamespace>
+    <AssemblyName>MySocketServerEmulator</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Requests\Line Item\AddLineItemRequest.cs" />
+    <Compile Include="Requests\Line Item\OverrideLineItemRequest.cs" />
+    <Compile Include="Requests\Line Item\RemoveLineItemRequest.cs" />
+    <Compile Include="Requests\Payment\ActivateGiftCardPaymentRequest.cs" />
+    <Compile Include="Requests\Payment\AddValueGiftCardPaymentRequest.cs" />
+    <Compile Include="Requests\Payment\AuthorizePaymentRequest.cs" />
+    <Compile Include="Requests\Payment\BalanceGiftCardPaymentRequest.cs" />
+    <Compile Include="Requests\Payment\CapturePaymentRequest.cs" />
+    <Compile Include="Requests\Payment\CashOutPaymentRequest.cs" />
+    <Compile Include="Requests\Payment\CreditPaymentRequest.cs" />
+    <Compile Include="Requests\Payment\DeactivateGiftCardPaymentRequest.cs" />
+    <Compile Include="Requests\Payment\PaymentRequest.cs" />
+    <Compile Include="Requests\Payment\VoidPaymentRequest.cs" />
+    <Compile Include="Requests\Reports\DuplicateCheckRequest.cs" />
+    <Compile Include="Requests\Reports\LastTransactionRequest.cs" />
+    <Compile Include="Requests\Reports\ReportRequest.cs" />
+    <Compile Include="Requests\Reports\SettlementSummaryRequest.cs" />
+    <Compile Include="Requests\RequestAttributes.cs" />
+    <Compile Include="Requests\RequestBase.cs" />
+    <Compile Include="Requests\SAF\QuerySAFRequest.cs" />
+    <Compile Include="Requests\SAF\RemoveSAFRequest.cs" />
+    <Compile Include="Requests\Security\RegisterPOSRequest.cs" />
+    <Compile Include="Requests\Security\TestMACRequest.cs" />
+    <Compile Include="Requests\Security\UnRegisterPOSRequest.cs" />
+    <Compile Include="Requests\Session\FinishSessionRequest.cs" />
+    <Compile Include="Requests\Session\StartSessionRequest.cs" />
+    <Compile Include="Requests\SettleRequest.cs" />
+    <Compile Include="Requests\SignatureRequest.cs" />
+    <Compile Include="Responses\Line Item\AddLineItemResponse.cs" />
+    <Compile Include="Responses\Line Item\OverrideLineItemResponse.cs" />
+    <Compile Include="Responses\Line Item\RemoveLineItemResponse.cs" />
+    <Compile Include="Responses\Payment\ActivateGiftCardPaymentResponse.cs" />
+    <Compile Include="Responses\Payment\AddValueGiftCardPaymentResponse.cs" />
+    <Compile Include="Responses\Payment\AuthorizePaymentResponse.cs" />
+    <Compile Include="Responses\Payment\BalanceGiftCardPaymentResponse.cs" />
+    <Compile Include="Responses\Payment\CapturePaymentResponse.cs" />
+    <Compile Include="Responses\Payment\CashOutPaymentResponse.cs" />
+    <Compile Include="Responses\Payment\CreditPaymentResponse.cs" />
+    <Compile Include="Responses\Payment\DeactivateGiftCardPaymenResponse.cs" />
+    <Compile Include="Responses\Payment\PaymentResponse.cs" />
+    <Compile Include="Responses\Payment\VoidPaymentResponse.cs" />
+    <Compile Include="Responses\Reports\DuplicateCheckResponse.cs" />
+    <Compile Include="Responses\Reports\LastTransactionResponse.cs" />
+    <Compile Include="Responses\Reports\ReportResponse.cs" />
+    <Compile Include="Responses\Reports\SettlementSummaryResponse.cs" />
+    <Compile Include="Responses\SAF\QuerySAFResponse.cs" />
+    <Compile Include="Responses\SAF\RemoveSAFResponse.cs" />
+    <Compile Include="Responses\SAF\SAFResponse.cs" />
+    <Compile Include="Responses\Session\FinishSessionResponse.cs" />
+    <Compile Include="Responses\ResponseBase.cs" />
+    <Compile Include="Responses\Security\RegisterPOSResponse.cs" />
+    <Compile Include="Responses\Security\TestMACResponse.cs" />
+    <Compile Include="Responses\Security\UnRegisterPOSResponse.cs" />
+    <Compile Include="Responses\SettleResponse.cs" />
+    <Compile Include="Responses\SignatureResponse.cs" />
+    <Compile Include="Responses\Session\StartSessionResponse.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

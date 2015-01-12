@@ -1,0 +1,6 @@
+c:\users\jon.essex\documents\visual studio 2012\Projects\PointPrototype\PointPrototype\bin\Debug\PointPrototype.exe.config
+c:\users\jon.essex\documents\visual studio 2012\Projects\PointPrototype\PointPrototype\bin\Debug\PointPrototype.exe
+c:\users\jon.essex\documents\visual studio 2012\Projects\PointPrototype\PointPrototype\bin\Debug\PointPrototype.pdb
+c:\users\jon.essex\documents\visual studio 2012\Projects\PointPrototype\PointPrototype\obj\Debug\PointPrototype.exe
+c:\users\jon.essex\documents\visual studio 2012\Projects\PointPrototype\PointPrototype\obj\Debug\PointPrototype.pdb
+C:\Users\Jon.Essex\documents\visual studio 2012\Projects\PointPrototype\PointPrototype\obj\Debug\PointPrototype.csprojResolveAssemblyReference.cache
